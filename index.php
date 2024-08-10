@@ -317,10 +317,10 @@ Computer Science Student -->
             $result = curl_exec($ch);
             curl_close($ch);
             $response = json_decode($result);
-            print_r ( $response);
-            echo '<video autoplay muted loop id="myVideo">
-             <source src="back.mp4" type="video/mp4">
-             </video>'; 
+      
+            // echo '<video autoplay muted loop id="myVideo">
+            //  <source src="back.mp4" type="video/mp4">
+            //  </video>'; 
             
 
             echo '<div id="main-div">';
